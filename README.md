@@ -15,6 +15,7 @@ It implements 3 deep learning models and 2 non-deep-learning models:
 | Fully-connected Neural Network (FNN) | [PVDM](https://arxiv.org/pdf/1405.4053v2.pdf) document embedding|  0.508 +- 0.005 (300 dimension) |
 | Gated Recurrent Unit (GRU) | [SkipThought](https://arxiv.org/abs/1506.06726) sentence embedding|  0.570 +- 0.004 (300 dimension) |
 | Convolutional Neural Network (CNN) | [GloVe](https://nlp.stanford.edu/projects/glove/) word embedding| 0.578 +- 0.006 (300 dimension) |
+
 All the deep learning models and non-deep-learning models
 are trained and evaluated on NAUM data.
 
