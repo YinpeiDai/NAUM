@@ -197,7 +197,7 @@ labelled data for `CNN_GloVe_100d_Results`.
 Final F1 scores reported in paper are calculated by averaging 10-fold cross validation results, and then to get the mean and variance 
 by 5 seeds . Final predictions for each labelled data are calculated by majority voting (we only use oversampling ratio 1:1 results to predict). 
 
-___Note: If you find any bugs, please contact dyp@mails.tsinghua.edu.cn. Thank you !___
+___Note: If you find any bugs, please contact dyp16@mails.tsinghua.edu.cn. Thank you !___
 
 
 
