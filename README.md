@@ -10,11 +10,11 @@ It implements 3 deep learning models and 2 non-deep-learning models:
 
 | Classifier | Input Feature | Weighted AVG. F1 score with 1:1 oversampling|
 | :---: | :---: | :---: |
-| Logistic Regression (LR) | Bag-of-words (BOW) |0.479 +- 0.008|
-| Support Vector Machine (SVM) | Bag-of-words (BOW) | 0.536 +- 0.000|
-| Fully-connected Neural Network (FNN) | [PVDM](https://arxiv.org/pdf/1405.4053v2.pdf) document embedding|  0.508 +- 0.005 (300 dimension) |
-| Gated Recurrent Unit (GRU) | [SkipThought](https://arxiv.org/abs/1506.06726) sentence embedding|  0.570 +- 0.004 (300 dimension) |
-| Convolutional Neural Network (CNN) | [GloVe](https://nlp.stanford.edu/projects/glove/) word embedding| 0.578 +- 0.006 (300 dimension) |
+| Logistic Regression (LR) | Bag-of-words (BOW) |0.515 +- 0.004|
+| Support Vector Machine (SVM) | Bag-of-words (BOW) | 0.550 +- 0.000|
+| Fully-connected Neural Network (FNN) | [PVDM](https://arxiv.org/pdf/1405.4053v2.pdf) document embedding|  0.512 +- 0.006 (300 dimension) |
+| Gated Recurrent Unit (GRU) | [SkipThought](https://arxiv.org/abs/1506.06726) sentence embedding|  0.560 +- 0.004 (300 dimension) |
+| Convolutional Neural Network (CNN) | [GloVe](https://nlp.stanford.edu/projects/glove/) word embedding| 0.598 +- 0.010 (300 dimension) |
 
 All the deep learning models and non-deep-learning models
 are trained and evaluated on NAUM data.
@@ -22,7 +22,7 @@ are trained and evaluated on NAUM data.
 ## Data
 The corpus is dialog data of Cognitive Behavioural Therapy (CBT) domain. It consists of 500K written posts that users 
 anonymously posted on the [Koko platform](https://itskoko.com/).
-There are only 4035 posts have been labelled by professional pychologists. 
+There are only 5056 posts have been labelled by professional pychologists. 
 An example of an annotated Koko post is below.
 
 ![Annotation](koko_annotations.png)

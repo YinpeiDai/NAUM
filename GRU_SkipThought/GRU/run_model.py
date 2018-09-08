@@ -66,7 +66,7 @@ class Run_GRU_SkipThought:
 
         current_save_dir = os.path.join(
             self.save_dir,
-            'GRU_Skipthought%dd_Results' % self.sent_emb_size,
+            'GRU_SkipThought_%dd_Results' % self.sent_emb_size,
             'seed%d' % seed,
             sub_category,
             'oversampling_ratio' + str(oversampling_ratio),

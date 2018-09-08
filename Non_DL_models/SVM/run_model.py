@@ -90,7 +90,7 @@ class Run_SVM_BOW:
         file.writelines('predictions (1 means positive, 0 means negative):' + '\n')
         # print prediction for each test data (1/10 of the whole labelled data)
         for i, ID in enumerate(dataset.testset_ids):
-            print_result = '%s %d' % (ID, test_outputs[i])
+            print_result = '%s %d' % (ID, 1-test_outputs[i])
             file.writelines(print_result + '\n')
         file.close()
 
