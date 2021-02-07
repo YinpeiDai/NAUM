@@ -71,7 +71,7 @@ multiple subcategories. The follwing dictionary shows the CBT ontology. More exa
 }
 ```
 NAUM data is currently not published, for more information please contact
-Dr. Gasic {_mg436@cam.ac.uk_}
+Prof. Gasic {gasic@uni-duesseldorf.de}
 
 ## Requirements
 * Tensorflow-gpu 1.8
